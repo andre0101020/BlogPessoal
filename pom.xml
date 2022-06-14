@@ -15,7 +15,7 @@
 	<name>blogpessoal</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>18</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -63,7 +63,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
-			<version>1.6.3</version>
+			<version>1.6.9</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
