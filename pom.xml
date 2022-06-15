@@ -15,7 +15,7 @@
 	<name>blogpessoal</name>
 	<description>Projeto Blog Pessoal</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
