@@ -175,7 +175,7 @@ public class UsuarioService {
 				usuarioLogin.get().setNome(usuario.get().getNome());
 				usuarioLogin.get().setFoto(usuario.get().getFoto());
 				usuarioLogin.get().setToken(gerarBasicToken(usuarioLogin.get().getUsuario(), usuarioLogin.get().getSenha()));
-				usuarioLogin.get().setSenha(usuario.get().getSenha());
+				usuarioLogin.get().setTipo(usuario.get().getTipo());
 
 				/**
 				 * Retorna o objeto usarioLogin atualizado para a classe UsuarioController.
@@ -268,6 +268,8 @@ public class UsuarioService {
 		String token = usuario + ":" + senha;
 		byte[] tokenBase64 = Base64.encodeBase64(token.getBytes(Charset.forName("US-ASCII")));
 		return "Basic " + new String(tokenBase64);
+		
+		
 
 	}
 
